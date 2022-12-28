@@ -1,0 +1,184 @@
+html{
+    background:#fffee0;
+    width:100%;
+    height:100%;
+   
+}
+
+@font-face{
+    font-family: 'varela round';
+    src: url('VarelaRound-Regular.ttf');
+}
+body{
+    font-family: "varela round";
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.creer, .creer:visited{
+    color: #00a88c;
+}
+
+a:visited, a{
+    color: #0017b0/*#4a668b*/;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.error:visited, .error{
+    color:red;
+}
+h1{
+    text-align: center;
+}
+.gauche{
+    text-align: left;
+}
+.droite{
+    text-align: right;
+}
+fieldset{
+    background-color: #FFFEC8;
+    border: none;
+    /*border-color:black;
+    border-width: thin;*/
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    /*border-width: 1pt;*/
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .5);
+}
+nav+fieldset{
+    margin-top:10%;
+}
+
+nav{
+    background-color: #fffec8;
+    padding-top:25px;
+    padding-bottom: 25px;
+    /*border-bottom: 1pt solid black;*/
+    /*margin-top: 0px;*/
+    position:fixed;
+    top:0px;
+    width:100%;
+    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, .2);
+}
+
+.nav, .nav:visited{
+    color:black;
+    background-color: #fffec8;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    /*border-bottom: 1pt solid black;*/
+    /*border-right: 1pt solid black;*/
+}
+
+
+
+.navA, .navA:visited{
+    color:black;
+    background-color: #fffec8;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    /*border-bottom: 1pt solid black;*/
+    /*border-right: 1pt solid black;
+    border-left: 1pt solid black;*/
+}
+
+.navA:hover,.navA:active,.nav:hover,.nav:active{
+    color:black;
+    background-color:#fffdaf;
+    text-decoration: none;
+    /*background: aliceblue;*/
+}
+
+.nav:hover,.nav:active{
+    color:black;
+    background-color: #fffdaf;
+}
+
+.multicolor {
+    /*background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;*/
+      
+   /* Font options */
+  /*text-shadow: 2px 2px 4px #000000;*/
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite; 
+  }
+
+  /* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}	
+      20%{color: red;}
+    30%{color: CadetBlue;}
+      40%{color: yellow;}
+    50%{color: coral;}
+      60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+      100%{color: orange;}
+  }
+
+  @keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}
+      20%{color: red;}
+    30%{color: CadetBlue;}
+      40%{color: yellow;}
+    50%{color: coral;}
+      60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+      100%{color: orange;}
+  }
+
+#spoiler{
+      background-color: gray;
+      background: gray;
+      color: gray;
+      
+  }
+
+#spoiler:target{
+    text-decoration: none;
+    background-color: #FFFEC8;
+    color: black;
+}
+#spoiler ul{
+    background-color: gray;
+    background: gray;
+    color: gray;
+}
+#spoiler:target ul{
+    text-decoration: none;
+    background-color: #FFFEC8;
+    color: black;
+}
+.espace{
+    padding-left: 25px;
+    padding-right: 25px;
+}  

@@ -1,0 +1,35 @@
+caption{
+	margin-bottom : 5%;
+}
+body {
+	text-align : center;
+}
+thead {
+	font-weight : bold;
+	color : blue;
+}
+tfoot{
+	font-weight : bold;
+	color : red;
+}
+table{
+	border-width : 1px;
+	border-style : solid;
+	border-color : black;
+}
+td {
+	border-width : 1px;
+	border-style : solid;
+	width : 50%;
+
+}
+th {
+	background-color: yellow;
+}
+
+div {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}

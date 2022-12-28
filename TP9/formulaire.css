@@ -1,0 +1,36 @@
+body {
+    text-align: right;
+}
+
+.champ {
+    display:block;
+    margin-right: 800px;
+}
+
+.actions {
+    margin-right: 850px;
+}
+
+#login:focus {
+    color: #7DC272;
+}
+
+label {
+    display: inline;
+}
+
+input[type="reset"] {
+    background-color: pink;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #771C14;
+}
+
+input[type="submit"] {
+    background-color: #8A8AFF;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #771C14;
+}

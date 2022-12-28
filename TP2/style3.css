@@ -1,0 +1,31 @@
+body {
+	text-align : center;
+}
+thead {
+	background-color: yellow;
+	font-weight : bold;
+}
+table{
+	border-width : 1px;
+	border-style : solid;
+	border-color : black;
+}
+th {
+	background-color: DarkOrange;
+}
+
+td {
+	border-width : 1px;
+	border-style : solid;
+	width : 50%;
+}
+td rowspan {
+	background-color: red;
+}
+
+div {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}

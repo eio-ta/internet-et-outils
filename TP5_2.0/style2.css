@@ -1,0 +1,17 @@
+* {margin: 0; padding: 0; color: white;}
+
+html {
+	height: 100%;
+	border-top: solid 5px white;
+	padding-top: 10%;
+	background-color: black;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/48/Magnolia_%C3%97_soulangeana_blossom.jpg');
+	background-repeat: no-repeat;
+	}
+
+p {margin-left: 55%;}
+
+table { margin : 0 auto }
+
+h1 { text-align: center}
+pre { text-align: center }

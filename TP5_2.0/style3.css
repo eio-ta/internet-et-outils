@@ -1,0 +1,9 @@
+body {
+    background : linear-gradient(blue, white);
+    width: 900px;
+    height: 1000px;
+}
+
+td {
+    text-align :center;
+}

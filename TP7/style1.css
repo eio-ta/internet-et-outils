@@ -1,0 +1,26 @@
+* * {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 10%;
+    width: 100%;
+    background-color :  rgb(233, 233, 233);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: "Arial","Geneva",sans-serif;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+	border-width: 1px;
+	border-style: dashed;
+    padding: 30px;
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+}

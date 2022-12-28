@@ -1,0 +1,21 @@
+body {
+	background-color:PaleGreen;
+	font-family: serif;
+	text-align: center;
+}
+
+section{
+    background-color: PapayaWhip;
+    color: SlateBlue;
+}
+
+h1 {
+	text-align: center;
+	font-size: xx-large;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: DimGrays;
+}

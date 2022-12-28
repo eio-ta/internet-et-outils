@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Style pour le fond*/
+
+body{
+    width: 100%;
+    background: url(Style/fond.png) no-repeat fixed;
+    background-size: cover;
+    font-family: "Arial","Geneva",sans-serif;
+}
+
+/*Style pour la barre de navigation*/
+
+.text-right {
+    text-align: right;
+}
+
+.d-inline {
+    display: inline-block;
+}
+
+.wid {
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(56, 56, 56);
+    padding: 15px;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 6px;
+}
+
+.pad-right {
+    padding-right: 80px;
+}
+
+.text-style {
+    font-weight: bold;
+    height: 25px;
+    line-height: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+/*Style pour le contenu des pages*/
+
+section {
+    background-color: rgb(233, 233, 233);
+    font-size: 14px;
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    border-style: double;
+    text-align: center;
+    overflow: auto;
+}
+
+.catégorie1 {
+    position: relative;
+    top: 90px;
+    left: -250px;
+    z-index: 1;
+}
+
+.catégorie2{
+    width: 90%;
+    height: 50px;
+    background: rgb(44,44,44);
+    border-radius: 200px;
+    color: #DCD5EA;
+    font-size: 25px;
+    font-family: 'Calibri';
+    line-height: 50px;
+    margin: auto;
+}
+
+.img{
+    border: 8px solid rgb(235, 235, 235);
+    border-radius: 50%;
+}
+
+a {
+    color: black;
+}
+
+.pas_espace {
+    margin: -70px;
+}
+
+.br {
+    padding: 3%;
+}
+
+.titre {
+    text-transform : uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #45207D;
+}
+
+table {
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    margin: auto;
+    table-layout: fixed;
+    overflow: scroll;
+}
+
+#donnees_1 {
+    border-width: 1px;
+    border-style: dashed;
+    padding: 10px;
+}
+
+.textemulticolore {
+    background-image: linear-gradient(to left, indigo, blue, green, orange, red);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.textmaj {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+
+/*Style pour la barre de navigation en bas de la page*/
+
+
+footer {
+    padding: 0 0 55px;
+    border-top: 4px solid #ebebeb;
+    clear: both;
+    font-family: "Arial","Geneva",sans-serif;
+    font-size: 12px;
+}
+
+#bas_de_la_page {
+    position: relative;
+    width: 800px;
+    padding-left: 275px;
+    margin: auto;
+}
+
+
+#bas_de_la_page > ul > li {
+    float: left;
+}
+
+#bas_de_la_page h4 a{
+    padding: 24px 20px 0;
+    height: 32px;
+    border-left: 1px solid #ebebeb;
+    text-transform: uppercase;
+    color: #292929;
+    white-space: nowrap;
+}
+

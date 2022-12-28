@@ -1,0 +1,78 @@
+html {
+    background-color: #BBD2E1;
+    font-family: "Bookman", "URW Bookman L", serif;
+}
+
+body {
+    position: absolute;
+    left: 300px;
+    right: 600px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid black;
+    margin-left: 200px;
+    text-transform: uppercase;
+    display: inline;
+    padding: 10px;
+}
+
+section {
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: blue;
+}
+
+nav {
+    width: 200px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+a {
+    text-decoration: none;
+    width: 200px;
+    color: #AA0000;
+    padding-top: 10px;
+    border: 2px solid red;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+
+h3 {
+    color: red;
+}
+
+div.poeme {
+    text-indent: 20px;
+    width: 500px;
+    margin-left: 150px;
+    background-color: #E0FFFF;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+p+p {
+    font-size: 1em;
+}
+
+p:first-letter {
+    font-style: italic;
+    font-size: 30px;
+}

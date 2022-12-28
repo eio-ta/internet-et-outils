@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="utf-8">
+            <title>Une page minimaliste</title>
+        </head>
+        <body>
+            <form action="bac.php" method="get">
+                <table border=3>
+                    <tr>
+                        <td>Français </td>
+                        <td><input type="number" name="notes[]" size="12" value="Français"></td>
+                    </tr>
+        
+                    <tr>
+                        <td>Maths </td>
+                        <td><input type="number" name="notes[]" size="12" value="Maths"></td>
+                    </tr>
+        
+                    <tr>
+                        <td>Histoire-géo </td>
+                        <td><input type="number" name="notes[]" size="12" value="Histoire-géo"></td>
+                    </tr>
+        
+                    <tr>
+                        <td>Anglais</td>
+                        <td><input type="number" name="notes[]" size="12" value="Anglais"></td>
+                    </tr>
+
+                    <tr>
+                        <td>EPS</td>
+                        <td><input type="number" name="notes[]" size="12" value="EPS"></td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" name="valider" value="Valider">
+                <input type="reset" name="annuler" value="Annuler"><br><br>
+            </form>
+        
+            
+        </body>
+    </html> 
